@@ -1,0 +1,5 @@
+  it("Should be able to transfer ownership of token Contract ", async () => {
+
+    await this.tokenhold.transferOwnership(accounts[9], { from: accounts[0] });
+  });
+
